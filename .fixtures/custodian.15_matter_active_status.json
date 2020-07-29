@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "code": "ACTIVE",
+        "name": "Active",
+        "order": 1
+    },
+    {
+        "id": 2,
+        "code": "DELETED",
+        "name": "Deleted",
+        "order": 2
+    }
+]

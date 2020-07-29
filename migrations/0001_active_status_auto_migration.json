@@ -1,0 +1,35 @@
+{
+    "id": "c078a493",
+    "applyTo": "",
+    "dependsOn": [],
+    "operations": [
+        {
+            "type": "createObject",
+            "object": {
+                "name": "active_status",
+                "key": "id",
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "number",
+                        "optional": true,
+                        "default": {
+                            "func": "nextval"
+                        }
+                    },
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "optional": false
+                    },
+                    {
+                        "name": "order",
+                        "type": "number",
+                        "optional": false
+                    }
+                ],
+                "cas": false
+            }
+        }
+    ]
+}
